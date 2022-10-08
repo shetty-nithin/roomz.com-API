@@ -3,6 +3,7 @@ const { createError } = require("../utils/errorGenerator");
 const authConfig = require("../configs/auth.config");
 const User = require("../models/user.model");
 
+
 const verifyToken = (req, res, next) => {
     const token = req.cookies.accessToken;
     if(!token){

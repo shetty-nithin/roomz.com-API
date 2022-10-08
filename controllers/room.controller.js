@@ -1,6 +1,7 @@
 const Room = require("../models/room.model");
 const Hotel = require("../models/hotel.model");
 
+
 exports.createRoom = async (req, res, next) => {
     const hotelId = req.params.hotelId;
 

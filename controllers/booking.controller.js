@@ -2,6 +2,7 @@ const Booking = require("../models/booking.model");
 const Hotel = require("../models/hotel.model");
 const User = require("../models/user.model");
 
+
 exports.createBooking = async (req, res, next) => {
     try {
         const bookingObj = {

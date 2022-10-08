@@ -4,6 +4,7 @@ const { createError } = require("../utils/errorGenerator");
 const jwt = require("jsonwebtoken");
 const authConfig = require("../configs/auth.config");
 
+
 exports.signup = async (req, res, next) => {
     try {
         const newUser = new User({
