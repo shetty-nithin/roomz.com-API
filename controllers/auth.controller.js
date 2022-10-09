@@ -32,7 +32,7 @@ exports.signin = async (req, res, next) => {
             return next(createError(400, "wrong password or username!"));
         }
 
-        const accessToken = jwt.sign({id: user._id, isAdmin: user.isAdmin}, authConfig.secretKey)
+        const accessToken = jwt.sign({id: user._id, isAdmin: user.isAdmin}, authConfig.secretKey);
 
         const { password, isAdmin, ...otherDetails} = user._doc;
         return res
