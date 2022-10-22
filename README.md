@@ -56,12 +56,15 @@ This is a simple hotel rooms booking app. This API can be used for the client si
 <br/>
 
 ## Demo
-#### Customer Interface <br/><br/>
-https://user-images.githubusercontent.com/62413993/196773465-c88c7446-5f6f-4c01-bb11-7524e460d7bc.mp4
 
+#### Customer Interface <br/><br/>
+https://user-images.githubusercontent.com/62413993/197358467-b552ef60-f2ac-4b88-a70f-30f146084ad4.mp4
 
 #### Admin Interface <br/><br/>
-https://user-images.githubusercontent.com/62413993/196773565-87cf7009-45c9-47f1-af1f-899b5d7c864c.mp4
+https://user-images.githubusercontent.com/62413993/197358282-9ab6ecb5-d062-48af-9f0b-612f81681c96.mp4
+
+
+
 
 
 <!-- MARKDOWN LINKS -->
