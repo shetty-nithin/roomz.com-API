@@ -57,11 +57,9 @@ This is a simple hotel rooms booking app. This API can be used for the client si
 
 ## Demo
 #### Customer Interface <br/><br/>
-https://user-images.githubusercontent.com/62413993/196773465-c88c7446-5f6f-4c01-bb11-7524e460d7bc.mp4
 
 
 #### Admin Interface <br/><br/>
-https://user-images.githubusercontent.com/62413993/196773565-87cf7009-45c9-47f1-af1f-899b5d7c864c.mp4
 
 
 <!-- MARKDOWN LINKS -->
