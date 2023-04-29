@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 app.use(cors({
-    origin: "*",
+    origin: [serverConfig.CLIENT_URL, serverConfig.ADMIN_URL],
     credentials: true
 }));
 app.use(cookieParser());
@@ -34,5 +34,5 @@ require("./routes/booking.routes")(app);
 
 app.listen(serverConfig.PORT, () => {
     connect();
-    console.log("server is up.");
+    console.log(`server is up on the port : ${serverConfig.PORT}`);
 })
